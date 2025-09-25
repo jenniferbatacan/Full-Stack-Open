@@ -7,6 +7,5 @@ sequenceDiagram
     server-->>browser: HTTP 302 Redirect to /notes
     browser->>server: GET /notes
     server-->>browser: HTML page with updated notes
-
 ```
 
